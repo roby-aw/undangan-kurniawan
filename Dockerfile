@@ -30,8 +30,8 @@ COPY --from=builder /app/public ./public
 EXPOSE 8080
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --quiet --tries=1 --spider http://localhost:8080/ || exit 1
+#HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+#  CMD wget --quiet --tries=1 --spider http://localhost:8080/ || exit 1
 
 # Start HTTP server serving the public directory
 CMD ["http-server", "public", "-p", "8080", "-c-1", "--gzip"]
