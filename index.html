@@ -86,7 +86,7 @@
 
 <!-- <html lang="id" data-bs-theme="auto"> ['auto', 'dark', 'light'] -->
 
-<body data-key="d9faced3377732b0edf19e90d1bde0cd5de04801c75eb41743" data-url="https://api.ulems.my.id/" data-audio="./assets/music/pure-love-304010.mp3" data-confetti="true" data-time="2026-05-06 09:00:00">
+<body data-key="" data-url="" data-audio="./assets/music/pure-love-304010.mp3" data-confetti="true" data-time="2026-05-06 09:00:00">
 
     <!-- Root Invitation -->
     <div class="row m-0 p-0 opacity-0" id="root">
@@ -122,12 +122,12 @@
 
                 <!-- Home -->
                 <section id="home" class="bg-light-dark position-relative overflow-hidden p-0 m-0">
-                    <img src="./assets/images/placeholder.webp" data-src="./assets/images/bg.webp" alt="bg" class="position-absolute opacity-25 top-50 start-50 translate-middle bg-cover-home">
+                    <img src="./assets/images/placeholder.webp" data-src="./assets/images/profile.webp" alt="bg" class="position-absolute opacity-25 top-50 start-50 translate-middle bg-cover-home">
 
                     <div class="position-relative text-center bg-overlay-auto" style="background-color: unset;">
                         <h1 class="font-esthetic pt-5 pb-4 fw-medium" style="font-size: 2.25rem;">Undangan Pernikahan</h1>
 
-                        <img src="./assets/images/placeholder.webp" data-src="./assets/images/bg.webp" alt="bg" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto cursor-pointer">
+                        <img src="./assets/images/placeholder.webp" data-src="./assets/images/profile.webp" alt="bg" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto cursor-pointer">
 
                         <h2 class="font-esthetic my-4" style="font-size: 2.25rem;">Kurniawan &amp; Aisyah</h2>
                         <p class="my-2" style="font-size: 1.25rem;">Rabu, 06 Mei 2026</p>
@@ -170,7 +170,6 @@
                             </div>
 
                             <div data-aos="fade-right" data-aos-duration="2000" class="pb-1">
-                                <img src="./assets/images/placeholder.webp" data-src="./assets/images/cowo.webp" alt="cowo" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto cursor-pointer">
                                 <h2 class="font-esthetic m-0" style="font-size: 2.125rem;">Kurniawan Prasetyo</h2>
                                 <p class="mt-3 mb-1" style="font-size: 1.25rem;">Anak Tunggal</p>
                                 <p class="mb-0" style="font-size: 0.95rem;">Bapak Sakuro</p>
@@ -197,7 +196,6 @@
                             </div>
 
                             <div data-aos="fade-left" data-aos-duration="2000" class="pb-1">
-                                <img src="./assets/images/placeholder.webp" data-src="./assets/images/cewe.webp" alt="cewe" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto cursor-pointer">
                                 <h2 class="font-esthetic m-0" style="font-size: 2.125rem;">N Aisyah Jamil Putri</h2>
                                 <p class="mt-3 mb-1" style="font-size: 1.25rem;">Putri ke-4</p>
                                 <p class="mb-0" style="font-size: 0.95rem;">Bapak Udin Nurdin</p>
@@ -239,71 +237,6 @@
                     </div>
                 </section>
 
-                <!-- Love Story -->
-                <section class="bg-light-dark pt-2 pb-4">
-                    <div class="container">
-                        <div class="bg-theme-auto rounded-5 shadow p-3">
-                            <h2 class="font-esthetic text-center py-2 mb-2" style="font-size: 2.125rem;">Kisah Cinta</h2>
-
-                            <!-- Jika tidak ingin menggunakan video, hapus seluruh tag dengan id="video-love-story" di bawah ini. -->
-                            <!-- If you don't want to use the video, remove the entire tag with id="video-love-story" below. -->
-
-                            <div id="video-love-stroy" class="position-relative rounded-4 mb-2 pb-0" data-src="./assets/video/265501_tiny.mp4" data-vid-class="w-100 rounded-4 shadow-sm m-0 p-0">
-                                <div class="position-absolute d-flex flex-column justify-content-center align-items-center top-50 start-50 translate-middle w-100 h-100 bg-overlay-auto rounded-4 z-3" id="video-love-stroy-loading">
-                                    <div class="progress w-25" role="progressbar" style="height: 0.5rem;" aria-label="progress bar">
-                                        <div class="progress-bar" id="progress-bar-video-love-stroy" style="width: 0%;"></div>
-                                    </div>
-                                    <small class="mt-1 text-theme-auto bg-theme-auto py-0 px-2 rounded-4" id="progress-info-video-love-stroy" style="font-size: 0.7rem;"></small>
-                                </div>
-                            </div>
-
-                            <div class="position-relative">
-                                <div class="position-absolute d-flex justify-content-center align-items-center top-50 start-50 translate-middle w-100 h-100 bg-overlay-auto z-3" style="opacity: 100%; background-color: unset;">
-                                    <button class="btn btn-outline-auto btn-sm rounded-4 shadow-sm" onclick="undangan.guest.showStory(this.parentNode)"><i class="fa-solid fa-heart fa-bounce me-2"></i>Lihat Story</button>
-                                </div>
-
-                                <div class="overflow-y-scroll overflow-x-hidden p-2 with-scrollbar" style="height: 15rem;">
-                                    <div class="row">
-                                        <div class="col-auto position-relative">
-                                            <p class="position-relative d-flex justify-content-center align-items-center bg-theme-auto border border-secondary border-2 opacity-100 rounded-circle m-0 p-0 z-1" style="width: 2rem; height: 2rem;">1</p>
-                                            <hr class="position-absolute top-0 start-50 translate-middle-x border border-secondary h-100 z-0 opacity-100 m-0 rounded-4 shadow-none">
-                                        </div>
-                                        <div class="col mt-1 mb-3 ps-0">
-                                            <p class="fw-bold mb-2">💼 Awal Pertemuan Sederhana</p>
-                                            <p class="small mb-0">
-                                                Pada Januari 2025, Kurniawan, seorang desainer grafis berusia 28 tahun, bertemu Aisyah, copywriter yang dikenal cerdas dan pendiam, dalam proyek branding perusahaan. Interaksi mereka di ruang rapat terbatas pada urusan kerja, penuh adab dan profesional. Tanpa Kurniawan ketahui, Aisyah sebenarnya pernah melihat karya desain Kurniawan di lomba nasional dua tahun lalu dan kagum dengan bakatnya. Namun, sesuai prinsipnya, Aisyah menjaga jarak dan hanya fokus pada tugas, menghindari interaksi yang tidak perlu.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-auto position-relative">
-                                            <p class="position-relative d-flex justify-content-center align-items-center bg-theme-auto border border-secondary border-2 opacity-100 rounded-circle m-0 p-0 z-1" style="width: 2rem; height: 2rem;">2</p>
-                                            <hr class="position-absolute top-0 start-50 translate-middle-x border border-secondary h-100 z-0 opacity-100 m-0 rounded-4 shadow-none">
-                                        </div>
-                                        <div class="col mt-1 mb-3 ps-0">
-                                            <p class="fw-bold mb-2">💞 Benih Cinta dalam Ujian</p>
-                                            <p class="small mb-0">
-                                                Memasuki Februari 2025, proyek mereka menghadapi krisis: klien menolak konsep awal dan mengancam membatalkan kontrak. Di tengah tekanan, Aisyah tampil dengan solusi kreatif yang menyelamatkan proyek, membuat Kurniawan terkesan dengan ketenangan dan kecerdasannya. Diam-diam, Kurniawan mulai memperhatikan Aisyah lebih dalam, terutama melalui unggahan media sosialnya yang penuh dengan nilai keimanan dan kesabaran. Merasa ada kesamaan visi, Kurniawan beristikharah dan memutuskan memulai taaruf. Ia menghubungi seorang ustaz terpercaya sebagai perantara. Kejutan muncul saat Aisyah mengaku bahwa ia juga telah lama memperhatikan Kurniawan, namun menahan diri hingga ada niat yang jelas, sebuah pengakuan yang membuat hati Kurniawan hangat.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-auto position-relative">
-                                            <p class="position-relative d-flex justify-content-center align-items-center bg-theme-auto border border-secondary border-2 opacity-100 rounded-circle m-0 p-0 z-1" style="width: 2rem; height: 2rem;">3</p>
-                                            <hr class="position-absolute top-0 start-50 translate-middle-x border border-secondary h-100 z-0 opacity-100 m-0 rounded-4 shadow-none">
-                                        </div>
-                                        <div class="col mt-1 mb-3 ps-0">
-                                            <p class="fw-bold mb-2">💍 Langkah Menuju Ridha Allah</p>
-                                            <p class="small mb-0">
-                                                Proses taaruf berjalan penuh keikhlasan, dengan pendamping yang memastikan setiap langkah sesuai syariat. Kurniawan Dan Aisyah saling terbuka tentang impian membangun keluarga yang diridhai Allah. Namun, sebuah ujian datang: keluarga Aisyah ragu karena latar belakang ekonomi Kurniawan yang sederhana. Di sinilah plot twist terungkap—Kurniawan mempresentasikan rencana usaha sosial berbasis seni yang telah ia kembangkan diam-diam, menunjukkan visinya untuk memberi manfaat bagi umat. Presentasi itu meluluhkan hati keluarga Aisyah. Pada Maret 2025, setelah istikharah dan mendapat restu keluarga, Kurniawan melamar Aisyah dalam acara sederhana namun penuh makna. Dengan niat tulus, mereka melangkah menuju pernikahan, yakin bahwa Allah telah merajut kisah mereka dengan indah.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
                 <!-- Wave Separator -->
                 <div class="svg-wrapper">
@@ -369,87 +302,12 @@
                         </div>
 
                         <div class="py-2" data-aos="fade-down" data-aos-duration="1500">
-                            <div class="d-flex justify-content-center align-items-center mb-3">
-                                <div class="shadow rounded-circle border border-secondary" style="width: 3rem; height: 3rem; background-color: white;"></div>
-                                <div class="shadow rounded-circle border border-secondary" style="width: 3rem; height: 3rem; background-color: aquamarine; margin-left: -1rem;"></div>
-                                <div class="shadow rounded-circle border border-secondary" style="width: 3rem; height: 3rem; background-color: limegreen; margin-left: -1rem;"></div>
-                            </div>
                             <p style="font-size: 0.95rem;">Busana batik dan bersepatu.</p>
                         </div>
 
                         <div class="py-2" data-aos="fade-down" data-aos-duration="1500">
-                            <a href="https://goo.gl/maps/ALZR6FJZU3kxVwN86" target="_blank" class="btn btn-outline-auto btn-sm rounded-pill shadow mb-2 px-3"><i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps</a>
-                            <small class="d-block my-1">RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191.</small>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Gallery -->
-                <section class="bg-white-black pb-5 pt-3" id="gallery">
-                    <div class="container">
-                        <div class="border rounded-5 shadow p-3">
-
-                            <h2 class="font-esthetic text-center py-2 m-0" style="font-size: 2.25rem;">Galeri</h2>
-
-                            <div id="carousel-image-one" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carousel-image-one" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carousel-image-one" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carousel-image-one" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-
-                                <div class="carousel-inner rounded-4">
-                                    <div class="carousel-item active">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=1" alt="image 1" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=2" alt="image 2" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=3" alt="image 3" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-image-one" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-image-one" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-
-                            <div id="carousel-image-two" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carousel-image-two" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-
-                                <div class="carousel-inner rounded-4">
-                                    <div class="carousel-item active">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=4" alt="image 4" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=5" alt="image 5" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/images/placeholder.webp" data-src="https://picsum.photos/1280/720?random=6" alt="image 6" class="d-block img-fluid cursor-pointer" onclick="undangan.guest.modal(this)">
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-image-two" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-image-two" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                            <a href="https://maps.app.goo.gl/hQY6ZAPmWJAiGsuY9" target="_blank" class="btn btn-outline-auto btn-sm rounded-pill shadow mb-2 px-3"><i class="fa-solid fa-map-location-dot me-2"></i>Lihat Google Maps</a>
+                            <small class="d-block my-1">Kampung Sukamukti/Kiararambay RT 04 RW 09, Desa Cibodas, Kecamatan Cikajang, Kabupaten Garut, Jawa Barat, 44171.</small>
                         </div>
                     </div>
                 </section>
@@ -472,17 +330,17 @@
                             <p class="d-inline">Transfer</p>
 
                             <div class="d-flex justify-content-between align-items-center mt-2">
-                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Aisyah Siapa?</p>
+                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Kurniawan Prasetyo</p>
                                 <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-bs-toggle="collapse" data-bs-target="#collapseTf"><i class="fa-solid fa-circle-info fa-sm me-1"></i>Info</button>
                             </div>
 
                             <div class="collapse" id="collapseTf">
                                 <hr class="my-2 py-1">
-                                <p class="m-0" style="font-size: 0.9rem;"><i class="fa-solid fa-building-columns me-1"></i>Bank Central Asia</p>
+                                <p class="m-0" style="font-size: 0.9rem;"><i class="fa-solid fa-building-columns me-1"></i>Bank SeaBank</p>
                                 <div class="d-flex justify-content-between align-items-center mt-2">
-                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-credit-card me-1"></i>1234567891234</p>
+                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-credit-card me-1"></i>901810219224</p>
                                     <!-- Ubah juga data-copy sesuai dengan no rekening -->
-                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="1234567891234" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
+                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="901810219224" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -509,19 +367,19 @@
                             <p class="d-inline">Gift</p>
 
                             <div class="d-flex justify-content-between align-items-center mt-2">
-                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>Kurniawan Siapa?</p>
+                                <p class="m-0 p-0" style="font-size: 0.95rem;"><i class="fa-regular fa-user fa-sm me-1"></i>N Aisyah Jamil</p>
                                 <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-bs-toggle="collapse" data-bs-target="#collapseGift"><i class="fa-solid fa-circle-info fa-sm me-1"></i>Info</button>
                             </div>
 
                             <div class="collapse" id="collapseGift">
                                 <hr class="my-2 py-1">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-phone-volume me-1"></i>0812345678</p>
+                                    <p class="m-0 p-0" style="font-size: 0.85rem;"><i class="fa-solid fa-phone-volume me-1"></i>081218188787</p>
                                     <!-- Ubah juga data-copy sesuai dengan no hp -->
-                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="0812345678" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
+                                    <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="081218188787" onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <p class="my-0 p-0 text-truncate me-2" style="font-size: 0.85rem;"><i class="fa-solid fa-location-dot me-1"></i>RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191.</p>
+                                    <p class="my-0 p-0 text-truncate me-2" style="font-size: 0.85rem;"><i class="fa-solid fa-location-dot me-1"></i>Kampung Sukamukti/Kiararambay RT 04 RW 09, Desa Cibodas, Kecamatan Cikajang, Kabupaten Garut, Jawa Barat, 44171.</p>
                                     <!-- Ubah juga data-copy sesuai dengan alamat -->
                                     <button class="btn btn-outline-auto btn-sm shadow-sm rounded-4 py-0" style="font-size: 0.75rem;" data-copy="RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191." onclick="undangan.util.copy(this)"><i class="fa-solid fa-copy"></i></button>
                                 </div>
@@ -637,12 +495,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallery">
-                            <i class="fa-solid fa-images"></i>
-                            <span class="d-block" style="font-size: 0.7rem;">Galeri</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#comment">
                             <i class="fa-solid fa-comments"></i>
                             <span class="d-block" style="font-size: 0.7rem;">Ucapan</span>
@@ -659,7 +511,7 @@
             <div class="d-flex flex-column text-center">
                 <h2 class="font-esthetic mb-4" style="font-size: 2.25rem;">The Wedding Of</h2>
 
-                <img src="./assets/images/placeholder.webp" data-src="./assets/images/bg.webp" alt="background" class="img-center-crop rounded-circle border border-3 border-light shadow mb-4 mx-auto">
+                <img src="./assets/images/placeholder.webp" data-src="./assets/images/profile.webp" alt="background" class="img-center-crop rounded-circle border border-3 border-light shadow mb-4 mx-auto">
 
                 <h2 class="font-esthetic mb-4" style="font-size: 2.25rem;">Kurniawan &amp; Aisyah</h2>
                 <div id="guest-name" data-message="Kepada Yth Bapak/Ibu/Saudara/i"></div>

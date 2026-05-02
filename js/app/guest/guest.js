@@ -258,7 +258,7 @@ export const guest = (() => {
             text: 'The Wedding of Kurniawan and Aisyah',
             dates: `${formatDate('2026-05-06 09:00')}/${formatDate('2026-05-06 13:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191.',
+            location: 'Kampung Sukamukti/Kiararambay RT 04 RW 09, Desa Cibodas, Kecamatan Cikajang, Kabupaten Garut, Jawa Barat, 44171.',
             ctz: config.get('tz'),
         });
 
